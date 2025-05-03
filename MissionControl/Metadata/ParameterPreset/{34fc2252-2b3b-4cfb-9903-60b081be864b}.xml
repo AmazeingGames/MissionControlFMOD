@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{34fc2252-2b3b-4cfb-9903-60b081be864b}">
+		<property name="name">
+			<value>SineWaveFrequency</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cf6c6cb2-cd55-48e7-acce-5ba35afcc06f}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ddd66689-33f6-451c-abf1-a3f8937d8109}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ddd66689-33f6-451c-abf1-a3f8937d8109}">
+		<property name="initialValue">
+			<value>0.5</value>
+		</property>
+		<property name="seekSpeed">
+			<value>2.4000000953674316</value>
+		</property>
+	</object>
+</objects>

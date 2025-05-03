@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{170f8074-3776-4cbf-96a4-edd8e9c44ada}">
+		<property name="assetPath">
+			<value>MouseDownPRNT_02.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.13</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a61b8ab5-7176-444c-a22c-110b87671a37}</destination>
+		</relationship>
+	</object>
+</objects>
