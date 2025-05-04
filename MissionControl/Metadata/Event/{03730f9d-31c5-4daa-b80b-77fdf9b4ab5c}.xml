@@ -5,7 +5,7 @@
 			<value>Blue</value>
 		</property>
 		<property name="name">
-			<value>NotebookSlide</value>
+			<value>NotebookToggleOn</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
@@ -93,14 +93,23 @@
 	<object class="MixerBusPanner" id="{4d181fec-8af3-4808-912a-2d4dece3f1c3}" />
 	<object class="MultiSound" id="{90ac3b16-db7d-4555-b2a3-dc5b96089b86}">
 		<property name="length">
-			<value>0.94000000000000006</value>
+			<value>0.45999999999999996</value>
 		</property>
 		<property name="volume">
 			<value>3.5</value>
 		</property>
+		<property name="pitch">
+			<value>-2.20000005</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{635f4176-746d-41d6-9451-d5a70ee9fd62}</destination>
 			<destination>{6ebb8a5b-821e-4d1e-a220-f53215d1e3be}</destination>
+		</relationship>
+		<relationship name="fadeInCurve">
+			<destination>{d099a8d3-3d2b-40fd-9052-6cc35e0bb079}</destination>
+		</relationship>
+		<relationship name="fadeOutCurve">
+			<destination>{d7c2bdd6-e4fa-41e3-9f76-21c2fe85b816}</destination>
 		</relationship>
 		<relationship name="sounds">
 			<destination>{7e96d760-f811-417b-aedb-13f247c699a3}</destination>
@@ -148,6 +157,22 @@
 			<value>4</value>
 		</property>
 	</object>
+	<object class="FadeCurve" id="{d099a8d3-3d2b-40fd-9052-6cc35e0bb079}">
+		<relationship name="startPoint">
+			<destination>{b758a7be-b39a-4fd8-8b88-60b576f303bb}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{13d4e1e1-c8dd-4450-bb64-f7c0c3d9d28f}</destination>
+		</relationship>
+	</object>
+	<object class="FadeCurve" id="{d7c2bdd6-e4fa-41e3-9f76-21c2fe85b816}">
+		<relationship name="startPoint">
+			<destination>{be730ba9-5619-4d9c-af67-1cb20b4d97f5}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{9312d405-087d-41ae-8095-aa761d70c5c2}</destination>
+		</relationship>
+	</object>
 	<object class="SingleSound" id="{7e96d760-f811-417b-aedb-13f247c699a3}">
 		<relationship name="audioFile">
 			<destination>{9822599f-c743-426f-be20-8f229ee6390f}</destination>
@@ -177,12 +202,50 @@
 			<destination>{2dd4fc22-4dc6-43ed-a8dc-ce20b905cf03}</destination>
 		</relationship>
 	</object>
+	<object class="AutomationPoint" id="{b758a7be-b39a-4fd8-8b88-60b576f303bb}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.2547189</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{13d4e1e1-c8dd-4450-bb64-f7c0c3d9d28f}">
+		<property name="position">
+			<value>0.030000000000000002</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{be730ba9-5619-4d9c-af67-1cb20b4d97f5}">
+		<property name="position">
+			<value>0.019999999999999966</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>0.25471893</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{9312d405-087d-41ae-8095-aa761d70c5c2}">
+		<property name="position">
+			<value>0.45999999999999996</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="ThreeEQEffect" id="{22472252-f179-4d7f-b8fc-1dc1b2e9f636}">
 		<property name="lowGain">
 			<value>-21.5</value>
 		</property>
 		<property name="highGain">
-			<value>2</value>
+			<value>-3.5</value>
 		</property>
 		<property name="highCrossover">
 			<value>7500</value>
