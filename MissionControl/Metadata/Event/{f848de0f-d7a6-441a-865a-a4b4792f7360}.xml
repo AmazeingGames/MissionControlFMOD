@@ -113,16 +113,16 @@
 	<object class="MixerBusFader" id="{7ab908d1-506a-4ca5-b29b-5e695aa79b21}" />
 	<object class="ThreeEQEffect" id="{33046f12-b83c-4b87-bd49-190e55dccb25}">
 		<property name="midGain">
-			<value>-1</value>
+			<value>-5</value>
 		</property>
 		<property name="highGain">
-			<value>-13.5</value>
+			<value>-6.5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{f345d33d-7b6e-4294-9e44-0f555e0c6a31}" />
 	<object class="MixerSend" id="{a65ff8c1-e2b6-4097-969b-15a59d5f28fe}">
 		<property name="level">
-			<value>-13.5</value>
+			<value>-8.5</value>
 		</property>
 		<property name="inputFormat">
 			<value>0</value>

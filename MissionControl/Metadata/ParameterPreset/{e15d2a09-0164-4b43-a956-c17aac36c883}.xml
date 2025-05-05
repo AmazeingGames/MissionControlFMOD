@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{e15d2a09-0164-4b43-a956-c17aac36c883}">
+		<property name="name">
+			<value>VolMusic</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cf6c6cb2-cd55-48e7-acce-5ba35afcc06f}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{368b0885-f373-409f-864c-fd947edc1f6e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{368b0885-f373-409f-864c-fd947edc1f6e}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="initialValue">
+			<value>80</value>
+		</property>
+	</object>
+</objects>
